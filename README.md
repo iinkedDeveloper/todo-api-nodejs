@@ -16,6 +16,17 @@ This project is a TODO API built using NodeJS and ExpressJS for coursework and b
 - Delete tasks
 - Local JSON file storage
 
+## API Endpoints
+
+### Get all tasks
+GET /tasks
+
+### Add a task
+POST /tasks
+
+### Delete a task
+DELETE /tasks/:id
+
 ## What I Learned
 I learned how to:
 - Build REST API endpoints
